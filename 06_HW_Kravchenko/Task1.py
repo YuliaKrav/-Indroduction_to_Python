@@ -9,6 +9,7 @@ opening_parenthesis = "("
 
 expression = "2 * (3 + 1) + 2 * 2="
 expression = "10 / 2 - 7 + 2 * (3 + 2 + 5 - 1) / 3 ="
+expression = "((5+   5) *(154-14))+8*(14+(19-13)) ="
 OPERATORS = {'*': operator.mul, '/': operator.truediv,
              '+': operator.add, '-': operator.sub}
 END_EXPRESSION = "="
